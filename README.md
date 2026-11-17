@@ -45,9 +45,9 @@ Django REST API -> React frontend
 ## Project Structure
 
 ```
-codementor-ai/
+AlgoMentor/
 ├── backend/
-│   ├── codementor/          # Django project settings
+│   ├── algomentor/          # Django project settings
 │   ├── agents/              # LangGraph multi-agent system
 │   │   ├── router_agent.py  # Intent classification agent
 │   │   ├── retriever_agent.py # RAG retrieval agent
