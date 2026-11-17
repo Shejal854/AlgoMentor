@@ -1,4 +1,4 @@
-# CodeMentor AI - Multi-Agent RAG Coding Assistant
+# AlgoMentor - Multi-Agent RAG Coding Assistant
 
 A Django-based AI system that helps students debug code, explains DSA concepts, and generates practice problems using a multi-agent RAG pipeline over a curated knowledge base of competitive programming solutions and editorials.
 
@@ -45,9 +45,9 @@ Django REST API -> React frontend
 ## Project Structure
 
 ```
-codementor-ai/
+AlgoMentor/
 ├── backend/
-│   ├── codementor/          # Django project settings
+│   ├── algomentor/          # Django project settings
 │   ├── agents/              # LangGraph multi-agent system
 │   │   ├── router_agent.py  # Intent classification agent
 │   │   ├── retriever_agent.py # RAG retrieval agent
